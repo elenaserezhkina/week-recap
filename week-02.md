@@ -32,11 +32,10 @@ Next steps are:
 * `git push origin branch-name`
 
 ! IMPORTANT 
-#### never push or delete master
-
-
+**never push or delete master**
 
 ____
 ### Some essentials:
+[Git cheatsheat](https://education.github.com/git-cheat-sheet-education.pdf)
 
 
