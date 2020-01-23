@@ -1,4 +1,0 @@
-# week-recap
-
-Week-recap
-==========
