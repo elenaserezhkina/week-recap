@@ -22,6 +22,7 @@ create a new branch and switch to it
 delete the specified branch
 
 3. Pull and push
+
 First of all we pull all the changes from the master by going to the master branch `git checkout master`. Then we execute `git pull` to update our current local working branch with all new commits from the corresponding remote branch on GitHub. 
 Then we open code edditor `open .` and make changes to the code.
 After all changes are done we check modified files in working directory`git status`.
