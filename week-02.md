@@ -278,6 +278,7 @@ ____
 
 1. **while** 
 
+```
 while (condition) {
   
   
@@ -285,27 +286,31 @@ while (condition) {
   
   
 }
+```
 
 2. **do while**
 
 
 *this code will execute at least once, even if the condition is false*
 
+```
 do {
 
   // loop body
   
 } while (condition);
+```
 
 
 3. **for (begin; condition; step)** 
 
-
+```
 for (let i = 0; i < 3; i++){
 
   alert(i);
   
 }
+```
 
 ## A "switch" statement
 
@@ -313,7 +318,7 @@ The switch statement can replace multiple **if** checks.
 
 **Syntax**
 
-
+```
 switch(x) {
 
   case 'value1':  // *if (x === 'value1')*
@@ -323,11 +328,12 @@ switch(x) {
 
   case 'value2':  // *else if (x === 'value2')*
  
-    [break]
+    break
 
   default:     // *else* 
 
-    [break]
+    break
     
 }
+```
 
