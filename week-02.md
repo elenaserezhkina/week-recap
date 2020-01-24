@@ -366,7 +366,6 @@ let sayHi = function() {
 };
 ```
 
-* There’s another syntax for creating functions, arrow functions.
 
 ##### !IMPORTANT
 A Function Expression is created when the execution reaches it and is usable only from that moment.
