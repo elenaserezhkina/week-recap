@@ -1,8 +1,6 @@
 # 🧠 topoftheweek  🧠
 
 
-This week we worked on our projects
-
 ## What is Git
 
 Git is ~~GitHub~~ a system for tracking changes in a code. It was created by Linus Torvalds.
