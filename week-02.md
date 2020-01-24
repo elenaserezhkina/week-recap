@@ -96,7 +96,7 @@ too many global variables in the global scope. Messy code
 
 ______
 
-### Conditional `if else` statement:
+###  ❇ Conditional `if else` statement:❇
 
 We use it when we want to perform different actions based on different conditions.
 
@@ -334,15 +334,6 @@ example :
  
  
  
- Useful links  👋👋
- 1. https://developer.mozilla.org/en-US/
- 2. https://www.w3schools.com/
- 3. https://caniuse.com/#
- 4. https://htmlcheatsheet.com/js/
- 5. https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX - very nicely made JS video courses from the very start :) 
- 6. https://www.youtube.com/watch?v=gPDk7_l_7WE - watch this is you're feeling bad about your code/skills/life 🤯🤬🥺
- 
- 
  
  
  
@@ -356,7 +347,7 @@ example :
 
 
 
-## Functions
+## 🔶Functions🔶
 
 Quite often we need to perform a similar action in many places of the script.
 Functions can 
@@ -393,5 +384,15 @@ function sayHi(name) {
 }
 ```
 
+_______________________
 
+ Useful links  👋👋
+ 1. https://developer.mozilla.org/en-US/
+ 2. https://www.w3schools.com/
+ 3. https://caniuse.com/#
+ 4. https://htmlcheatsheet.com/js/
+ 5. https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX - very nicely made JS video courses from the very start :) 
+ 6. https://www.youtube.com/watch?v=gPDk7_l_7WE - watch this is you're feeling bad about your code/skills/life 🤯🤬🥺
+ 
+ 
 
