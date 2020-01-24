@@ -337,3 +337,42 @@ switch(x) {
 }
 ```
 
+## Functions
+
+Quite often we need to perform a similar action in many places of the script.
+Functions can 
+
+* A **function declaration** looks like this:
+
+```
+function sum(a, b) {
+  return a + b;
+}
+```
+
+* Another syntax for creating a function that is called a **Function Expression**.
+
+```
+let sayHi = function() {
+  alert( "Hello" );
+};
+```
+
+* There’s another syntax for creating functions, arrow functions.
+
+### !IMPORTANT
+A Function Expression is created when the execution reaches it and is usable only from that moment.
+A Function Declaration can be called earlier than it is defined.
+
+
+For example, this works:
+```
+sayHi("John"); // Hello, John
+
+function sayHi(name) {
+  alert( `Hello, ${name}` );
+}
+```
+
+
+
