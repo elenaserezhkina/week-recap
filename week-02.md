@@ -94,7 +94,80 @@ variable defined *inside* of the block, it's only accesable from inside the bloc
 ### ✨✨Scope polution ✨✨
 too many global variables in the global scope. Messy code
 
+______
 
+## Conditional statement:
+
+We use them when we want to perform different actions based on different conditions.
+
+### If else
+The `if(...){}` statement evaluates a condition in parentheses and, if the result is true, executes a block of code.
+
+Sometimes, we’d like to test several variants of a condition. The else if clause lets us do that.
+
+For example:
+
+```
+if (x > 50) {
+  /* do the right thing */
+} else if (x > 5) {
+  /* do the right thing */
+} else {
+  /* do the right thing */
+}
+```
+
+## A "switch" statement
+
+The switch statement can replace multiple **if** checks.
+
+**Syntax**
+
+```
+switch(x) {
+
+  case 'value1':  // *if (x === 'value1')*
+    break
+
+  case 'value2':  // *else if (x === 'value2')*
+    break
+
+  default:     // *else* 
+    break
+}
+```
+
+### Loop:
+
+1. **while** 
+
+```
+while (condition) {
+  // code  
+}
+```
+
+2. **do while**
+
+
+*this code will execute at least once, even if the condition is false*
+
+```
+do {
+  // loop body
+} while (condition);
+```
+
+
+3. **for (begin; condition; step)** 
+
+```
+for (let i = 0; i < 3; i++){
+  alert(i); 
+}
+```
+
+______
 
 ## Manipulating the DOM 
 #### (Document Object Model) -the data representation of the objects that comprise the structure and content of a document on the web
@@ -273,69 +346,7 @@ example :
  
 
 
-____
-## Loop:
 
-1. **while** 
-
-```
-while (condition) {
-  
-  
-  // code
-  
-  
-}
-```
-
-2. **do while**
-
-
-*this code will execute at least once, even if the condition is false*
-
-```
-do {
-
-  // loop body
-  
-} while (condition);
-```
-
-
-3. **for (begin; condition; step)** 
-
-```
-for (let i = 0; i < 3; i++){
-
-  alert(i);
-  
-}
-```
-
-## A "switch" statement
-
-The switch statement can replace multiple **if** checks.
-
-**Syntax**
-
-```
-switch(x) {
-
-  case 'value1':  // *if (x === 'value1')*
-  
-    
-    break
-
-  case 'value2':  // *else if (x === 'value2')*
- 
-    break
-
-  default:     // *else* 
-
-    break
-    
-}
-```
 
 ## Functions
 
@@ -360,7 +371,7 @@ let sayHi = function() {
 
 * There’s another syntax for creating functions, arrow functions.
 
-### !IMPORTANT
+##### !IMPORTANT
 A Function Expression is created when the execution reaches it and is usable only from that moment.
 A Function Declaration can be called earlier than it is defined.
 
