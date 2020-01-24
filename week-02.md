@@ -167,6 +167,8 @@ do {
 
 3. **for (begin; condition; step)** 
 
+ It's the most commonly used loop.
+
 ```
 for (let i = 0; i < 3; i++){
   alert(i); 
