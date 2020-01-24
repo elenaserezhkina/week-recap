@@ -16,8 +16,10 @@ Clone (download) a repository that already exists on
 GitHub.
 
 2. Work with branches
-#### `git checkout -b branch-name`
-create a new branch and switch to it
+#### `git branch branch-name`
+create a new branch
+#### `git checkout branch-name`
+switch to another branch
 ####  `git branch -d branch-name`
 delete the specified branch
 
@@ -27,6 +29,8 @@ First of all we pull all the changes from the master by going to the master bran
 Then we open code edditor `open .` and make changes to the code.
 After all changes are done we check modified files in working directory`git status`.
 Next steps are: 
+* `git checkout -b branch-name`
+create a new branch and switch to it
 * `git add .`
 * `git commit -m "what changes were done"`
 * `git push origin branch-name`
