@@ -96,12 +96,11 @@ too many global variables in the global scope. Messy code
 
 ______
 
-## Conditional statement:
+### Conditional `if else` statement:
 
-We use them when we want to perform different actions based on different conditions.
+We use it when we want to perform different actions based on different conditions.
 
-### If else
-The `if(...){}` statement evaluates a condition in parentheses and, if the result is true, executes a block of code.
+The `if(...){}` statement evaluates a condition in parentheses and, if the result is **true**, executes a block of code.
 
 Sometimes, we’d like to test several variants of a condition. The else if clause lets us do that.
 
@@ -117,11 +116,11 @@ if (x > 50) {
 }
 ```
 
-## A "switch" statement
+### A "switch" statement
 
 The switch statement can replace multiple **if** checks.
 
-**Syntax**
+##### Syntax
 
 ```
 switch(x) {
@@ -139,11 +138,17 @@ switch(x) {
 
 ### Loop:
 
+Loops are a way to repeat the same code multiple times.
+
 1. **while** 
 
+While the condition is truthy, the code from the loop body is executed.
+
 ```
-while (condition) {
-  // code  
+let i = 0;
+while (i < 3) {
+  alert(i);
+  i++;
 }
 ```
 
@@ -153,9 +158,10 @@ while (condition) {
 *this code will execute at least once, even if the condition is false*
 
 ```
+let i = 5;
 do {
-  // loop body
-} while (condition);
+  alert(i);
+} while (i < 4);
 ```
 
 
