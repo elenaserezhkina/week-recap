@@ -52,7 +52,7 @@ There are two main types: **Relational and Non Relational (NoSQL) databases.**
   }
 }`
 
-
+Useful links: (https://www.notion.so/Databases-e03650e7b504439891cd80b51f9e4a91)
 
 
 
@@ -89,6 +89,7 @@ List all tables in the currently selected database:
 ! Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
 
 ! SQL keywords are NOT case sensitive: select is the same as SELECT
+
 
 
 
