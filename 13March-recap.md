@@ -1,3 +1,11 @@
+## How to pass children in React
+
+##### in app.js
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/app.png)
+#### in another.js
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/example.png)
+
+
 ## Databases
 
 ### A database is an **organized** collection of **data**.
@@ -55,6 +63,24 @@ There are two main types: **Relational and Non Relational (NoSQL) databases.**
 Useful links: (https://www.notion.so/Databases-e03650e7b504439891cd80b51f9e4a91)
 
 
+## What is a DB model?
+#### A database model describes how data can be stored, organized and accessed in a database.
+
+## What is a Relational DB model?
+#### A Relational db Model is the type of database model that describes Relational Databases.
+#### It describes all the tables, relations between the tables and data constraints.
+
+There are 3 types of relations:
+
+one-to-one
+
+one-to-many
+
+many-to-many
+
+![Image of props and state](https://github.com/miaypc/Notes/blob/master/images/database.png)
+
+
 
 ## :zap: Structure Query Language(SQL) :zap:
 #### is a database query language used for storing and managing data in Relational DBMS
@@ -91,10 +117,35 @@ List all tables in the currently selected database:
 ! SQL keywords are NOT case sensitive: select is the same as SELECT
 
 
+## Node.js 
 
+Node.js is an open source server environment.
 
+Node.js allows you to run JavaScript on the server.
 
+### Node.js Modules
 
+Consider modules to be the same as JavaScript libraries.
+
+A set of functions you want to include in your application.
+
+To include a module, use the **require()** function with the name of the module:
+
+`const http = require('http');`
+
+Now your application has access to the HTTP module, and is able to create a server.
+
+`const http = require('http');`
+
+`http.createServer(function (req, res) {`
+
+ ` res.writeHead(200, {'Content-Type': 'text/html'});`
+ 
+ ` res.end('Hello World!');`
+ 
+`}).listen(3000);`
+
+This code tells the computer to write "Hello World!" if anyone (e.g. a web browser) tries to access your computer on port 3000
 
 
 
