@@ -19,12 +19,9 @@ or
 Formik keeps track of your form's state and then exposes it plus a few reusable methods and event handlers (handleChange, handleBlur, and handleSubmit) to your form via props. handleChange and handleBlur work exactly as expected--they use a name or id attribute to figure out which field to update.
 
 
-Formik render methods and props
-There are 2 ways to render things with Formik:
-
-* `<Formik component>`
-* `<Formik children>`
-
 Example:
+
+https://imgur.com/a/T11cHop
+
 
 
