@@ -25,3 +25,56 @@ https://imgur.com/a/T11cHop
 
 
 
+## Custom Hooks
+
+A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks. For example, useFriendStatus below is our first custom Hook:
+
+
+```import { useState, useEffect } from "react";
+
+function useFriendStatus(friendID) {
+  const [isOnline, setIsOnline] = useState(null);
+
+  useEffect(() => {
+    function handleStatusChange(status) {
+      setIsOnline(status.isOnline);
+    }
+
+    ChatAPI.subscribeToFriendStatus(friendID, handleStatusChange);
+    return () => {
+      ChatAPI.unsubscribeFromFriendStatus(friendID, handleStatusChange);
+    };
+  });
+
+  return isOnline;
+}
+
+```
+
+
+we can use it like that:
+
+
+```
+function FriendStatus(props) {
+  const isOnline = useFriendStatus(props.friend.id);
+
+  if (isOnline === null) {
+    return "Loading...";
+  }
+  return isOnline ? "Online" : "Offline";
+}
+```
+
+
+### Rules of Hooks
+
+* Only Call Hooks at the Top Level
+
+* Only Call Hooks from React Functions
+
+(instead you can
+✅ Call Hooks from React function components.
+✅ Call Hooks from custom Hooks
+)
+
